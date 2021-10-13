@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Send FREIGHT</title>
+</head>
+<body>
+    <!-----THIS IS THE HEADER----->
+    <header class="header flexbox">
+        <a href="" class="logo">send <span>FREIGHT</span></a>
+        <div class="search-box flexbox">
+            <input type="text" class="remove-outline search" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="btns-wrapper">
+            <button class="remove-outline button">Request Quote</button>
+            <button class="remove-outline button">Book Shipment</button>
+        </div>
+    </header>
+    <!---END OF HEADER---->
+
+    <!--THIS IS THE MAIN CONTENT-->
+    <main>
+        <div class="booking-box flexbox">
+            <div class="arrow">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="booking">
+                <h4>New Booking</h4>
+                <p>Fill in the information below to get a quote or create a new booking</p>
+            </div>
+        </div>
+        <div class="main-box flexbox">
+            <div class="container-1 flexbox adjustment">
+                <h5>Select a service</h5>
+                <div class="button-container flexbox">
+                    <button class="remove-outline button-2 flexbox">Air Freight <i class="fas fa-plane"></i></button>
+                    <button class="remove-outline button-2 flexbox">Sea Freight <i class="fas fa-ship"></i></button>
+                    <button class="remove-outline button-2 flexbox">
+                        <span class="alignment flexbox">
+                            <p>Inland</p>
+                            <p>(Truck & Barge)</p>
+                        </span>
+                        <i class="fas fa-truck"></i>
+                    </button>
+                    <button class="remove-outline button-2 flexbox">
+                        <span class="alignment flexbox">
+                            <p>Customs</p>
+                            <p>Clerance</p>
+                        </span>
+                        <i class="fas fa-user-tie"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="main-box flexbox">
+            <div class = "container-1">
+                <div class="shape flexbox"><p>i</p></div>
+                <div class="container1-box flexbox">
+                    <div class="btn-3">
+                        <div><button class="remove-outline">Import</button></div>
+                        <div><button class="remove-outline">Export</button></div>
+                    </div>
+                    <div class="from-city input-box flexbox">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <input type="text" class="remove-outline input-text" placeholder="From City or Port">
+                    </div>
+                    <div class="To-city input-box flexbox">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <input type="text" class="remove-outline input-text" placeholder="To City or Port">
+                    </div>
+                </div>
+                <div class="date-box">
+                    <div class="date calender">
+                        <i class="fas fa-calendar"></i>
+                        <input type="text" class="remove-outline input-text" placeholder="Ready Date">
+                    </div>
+                    <div class="select-box">
+                        <select>
+                            <option value="incoterms">Incoterms</option>
+                        </select>
+                    </div>
+                    <div class="date">
+                        <input type="text" class="remove-outline input-text" placeholder="Total Cargo Value">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-box flexbox">
+            <div class="container-1">
+                <div class="details-box flexbox">
+                    <h5>Cargo Details</h5>
+                    <div class="dangerous-cargo-btn flexbox">
+                        <input type="checkbox" class="toggle">
+                        <p><span>Dangerous Cargo</span> (ex. Chemicals, Battery)</p>
+                    </div>
+                </div>
+                <div class="dimensions flexbox">
+                    <p>Total Dimensions</p>
+                    <p>Package Details</p>
+                </div>
+                <div class="weight-box flexbox">
+                    <div class="volume weight-box-input flexbox">
+                        <input type="text" name="Total Volume" class="remove-outline">
+                        <label for="">Total Volume</label>
+                        <p>cbm</p>
+                    </div>
+                    <div class="weight weight-box-input flexbox">
+                        <input type="text" name="Total Weight" class="remove-outline">
+                        <label for="">Total Weight</label>
+                        <p>kg</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-box flexbox">
+            <div class="container-1">
+                <h5>Additional Services</h5>
+                <div class="services-wrapper">
+                    <div class="services-box1">
+                        <div class="text-box">
+                            <input type="checkbox">
+                            <div class="text-box-mini">
+                                <h5>Export Forwarding</h5>
+                                <p>We handle customs and documentation.</p>
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <input type="checkbox">
+                            <div class="text-box-mini">
+                                <h5>Cargo Insurance</h5>
+                                <p>Protect your cargo from logistics risks up to its full value.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-box1">
+                        <div class="text-box">
+                            <input type="checkbox">
+                            <div class="text-box-mini">
+                                <h5>Import Customs Clearance</h5>
+                                <p>We handle import customs and regulatory requirements.</p>
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <input type="checkbox">
+                            <div class="text-box-mini">
+                                <h5>Transport / Delivery</h5>
+                                <p>We deliver the cargo to your door step from the ports.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--FOR SMALLER SCREENS-->
+    <section>
+        <a href="" class="logo">send <span>FREIGHT</span></a>
+        <p>Only available on Desktop</p>
+    </section>
+</body>
+</html>
