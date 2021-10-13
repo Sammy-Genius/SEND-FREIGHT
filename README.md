@@ -1,2 +1,2 @@
 # SEND-FREIGHT
-This is a clone of the Send freight app. Built with HTML, CSS and JavaScript. 
+This is a clone of the Send freight app UI. Built with HTML and CSS.
